@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+}
+.main {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.897) 0%, 
+    rgba(21, 21, 23, 0.849) 23%,
+    rgba(32, 120, 138, 0.877) 100%),
+    url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background: #13131C;
+}
+
+header h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+input {
+  margin-trim: 1rem;
+  margin-block: 1rem;
+}
+
+#message {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  min-height: 50px;
+  padding-top: 1rem;
+}
+
+.card {
+  background: #030324;
+  margin-bottom: 2rem;
+}
+
+.time-left {
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.score {
+  font-family: 'Press Start 2P', cursive;
+}
